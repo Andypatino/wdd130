@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
 :root {
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a43312;
-  --accent2-color: #381d2a;
-  --heading-font: 'font-name', serif;
-  --paragraph-font: 'font-name', serif;
+  --primary-color: #1c5fbd;
+  --secondary-color: #0dc034;
+  --accent1-color: #1ba9dd;
+  --accent2-color: #8cbe20;
+  --heading-font: 'font-name', sans-serif;
+  --paragraph-font: 'font-name', sans-serif;
   --nav-background-color: #396e94;
   --nav-link-color: #ffffff;
-  --nav-hover-link-color: #e7c24f;
-  --nav-hover-background-color: #a43312;
+  --nav-hover-link-color: #4ed7f0;
+  --nav-hover-background-color: #030be9;
 }
 
 body {
