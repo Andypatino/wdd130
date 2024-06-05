@@ -1,0 +1,113 @@
+/* CSS for Contact Us page */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply box-sizing to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Apply default font and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+/* Contact section styles */
+.contact-section {
+    margin-bottom: 30px;
+    border: 1px solid #ccc; /* Wireframe border */
+    padding: 20px;
+}
+
+/* Employee section styles */
+.employee-section {
+    margin-bottom: 30px;
+    border: 1px solid #cccccc; /* Wireframe border */
+    padding: 20px;
+}
+
+/* Style for employee grid items */
+.employee-item {
+    background-color: #f5e8dc; /* Soft white khaki background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Contact form section styles */
+.contact-form-section {
+    border: 1px solid #cccccc; /* Wireframe border */
+    padding: 20px;
+}
+
+/* Form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Social icons styles */
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}

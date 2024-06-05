@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Whitewater Rafting Company</title>
+    <!-- Adjusted title to reflect Contact Us page -->
+    <meta name="description" content="Contact Mega Rafting Otavalo for inquiries, reservations, and website suggestions.">
+    <!-- Added meta description -->
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- Linked the existing stylesheet -->
+    <link rel="stylesheet" href="styles/contact.css">
+    <!-- Linked the CSS file for contact page -->
+</head>
+<body>
+    <header>
+        <!-- Header remains the same as other pages -->
+        <!-- Content unchanged -->
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <!-- Company information -->
+                <p>Address: Otavalo Street, Otavalo, Ecuador</p>
+                <p>Phone: +123456789</p>
+                <p>Email: info@megaraftingotavalo.com</p>
+                <!-- Embedded Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63691.16647169416!2d-78.19835296809175!3d0.23356721338364573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91bb1b0a8181b3e9%3A0x7e179b140022c31!2sOtavalo%2C%20Ecuador!5e0!3m2!1sen!2s!4v1620736143135!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="employee-section">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <!-- Employee profiles -->
+                <div class="employee-item">
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Christian Patino - CEO</figcaption>
+                </div>
+                <div class="employee-item">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Maria Velasco - CFO</figcaption>
+                </div>
+                <div class="employee-item">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Luna - Lead Guide</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <!-- Contact form -->
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="purpose">Purpose of Message:</label>
+                    <!-- Using radio buttons for message purpose -->
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="website" name="purpose" value="website">
+                    <label for="website">Website Suggestion</label><br>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer remains the same as other pages -->
+        <!-- Content unchanged -->
+    </footer>
+</body>
+</html>
