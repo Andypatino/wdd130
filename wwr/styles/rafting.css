@@ -267,3 +267,22 @@ button[type="submit"]:hover {
     background-color: #265580;
 }
 
+/* rafting.css */
+
+/* Existing styles this part was added in week 5 to make the pictures of employees go in a row, not in a column*/
+.employee-grid {
+    display: flex; /* Change to flex to create a flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+.employee-item {
+    width: calc(33.33% - 20px); /* Adjust the width of each item */
+    margin-bottom: 20px; /* Add margin between items */
+    text-align: center; /* Center align the items */
+}
+
+/* New style to apply to each employee item */
+.employee-item img {
+    max-width: 100%;
+}

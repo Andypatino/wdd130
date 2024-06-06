@@ -4,56 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Whitewater Rafting Company</title>
-    <!-- Adjusted title to reflect Contact Us page -->
-    <meta name="description" content="Contact Mega Rafting Otavalo for inquiries, reservations, and website suggestions.">
-    <!-- Added meta description -->
+    <meta name="description" content="Contact us for inquiries, reservations, or suggestions.">
     <link rel="stylesheet" href="styles/rafting.css">
-    <!-- Linked the existing stylesheet -->
-    <link rel="stylesheet" href="styles/contact.css">
-    <!-- Linked the CSS file for contact page -->
 </head>
 <body>
     <header>
-        <!-- Header remains the same as other pages -->
-        <!-- Content unchanged -->
+        <div class="header-container">
+            <img src="images/logo1.jpg" alt="Rafting Company Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="contact-section">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <!-- Company information -->
-                <p>Address: Otavalo Street, Otavalo, Ecuador</p>
-                <p>Phone: +123456789</p>
-                <p>Email: info@megaraftingotavalo.com</p>
-                <!-- Embedded Google Map -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63691.16647169416!2d-78.19835296809175!3d0.23356721338364573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91bb1b0a8181b3e9%3A0x7e179b140022c31!2sOtavalo%2C%20Ecuador!5e0!3m2!1sen!2s!4v1620736143135!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        <!-- Company information -->
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p>777 Adventure Ave, Otavalo, Ecuador</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@megaraftingotavalo.com</p>
+            <!-- Embedded Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.683900129878!2d-78.21570428408404!3d0.22612838762526154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd358c424ce209%3A0xa0c5c6e527815188!2sOtavalo%2C%20Ecuador!5e0!3m2!1sen!2sus!4v1622812083461!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
-        <section class="employee-section">
+        <!-- Employee profiles -->
+        <section class="employee-profiles">
             <h2>Meet Our Team</h2>
             <div class="employee-grid">
-                <!-- Employee profiles -->
                 <div class="employee-item">
                     <img src="images/Employee1.png" alt="Employee 1">
                     <figcaption>Christian Patino - CEO</figcaption>
                 </div>
                 <div class="employee-item">
                     <img src="images/Employee2.png" alt="Employee 2">
-                    <figcaption>Maria Velasco - CFO</figcaption>
+                    <figcaption>Maria Velasco - COO</figcaption>
                 </div>
                 <div class="employee-item">
                     <img src="images/Employee3.png" alt="Employee 3">
-                    <figcaption>Luna - Lead Guide</figcaption>
+                    <figcaption>Luna - Tour Guide</figcaption>
                 </div>
             </div>
         </section>
 
+        <!-- Contact form -->
         <section class="contact-form-section">
-            <h2>Send Us a Message</h2>
-            <!-- Contact form -->
-            <form action="#" method="POST" class="contact-form">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="#" method="POST">
                 <div class="form-group">
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -63,31 +63,38 @@
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="purpose">Purpose of Message:</label>
-                    <!-- Using radio buttons for message purpose -->
-                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="purpose">Purpose of Message:</label><br>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
                     <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
                     <label for="reservation">Reservation Question</label><br>
-                    <input type="radio" id="website" name="purpose" value="website">
-                    <label for="website">Website Suggestion</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
                 </div>
                 <div class="form-group">
                     <label for="message">Your Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <!-- Footer remains the same as other pages -->
-        <!-- Content unchanged -->
+        <div class="footer-container">
+            <p>&copy; 2024 Mega Rafting Otavalo | Created by Christian Patino</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            <!-- Link to Contact Us Wireframe Image -->
+            <a href="contact_us_wireframe_image.jpg">Contact Us Wireframe</a>
+        </div>
     </footer>
 </body>
 </html>
